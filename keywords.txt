@@ -1,0 +1,35 @@
+###########################################
+# Syntax Coloring Map For DINO PLC Library
+###########################################
+
+###########################################
+# Datatypes (KEYWORD1)
+###########################################
+PLC_FLASH             KEYWORD1
+PLC_RAM               KEYWORD1
+USE_PLC_MODBUS        KEYWORD1
+USE_PLC_RTC           KEYWORD1
+RTC_SYNC_DURATION     KEYWORD1
+USE_PLC_MODBUS_TCP    KEYWORD1
+
+###########################################
+# Methods and Functions (KEYWORD2)
+###########################################
+initPLC         KEYWORD2
+updateRTC       KEYWORD2
+getM            KEYWORD2
+setM            KEYWORD2
+resetM          KEYWORD2
+getU8D          KEYWORD2
+getU16D         KEYWORD2
+getU32D         KEYWORD2
+getT            KEYWORD2
+getC            KEYWORD2
+getFD           KEYWORD2
+setU8D          KEYWORD2
+setU16D         KEYWORD2
+setU32D         KEYWORD2
+setFD           KEYWORD2
+RTCSettime      KEYWORD2
+setmyRTCTime    KEYWORD2
+PLC_Network_Function    KEYWORD2
